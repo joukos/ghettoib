@@ -107,7 +107,7 @@ interface (I didn't try it):
 
 Pin 7	SGND	(Signal Ground)
 Pin 2	TD	(Transmit Data from logic analysis system)	output
-Pin 3	RT	(Receive Data into logic analysis system)	input
+Pin 3	RD	(Receive Data into logic analysis system)	input
 
 If you use the three-wire interface, you *must* configure both the instrument and your code to
 use the XON/XOFF protocol. When you create an HPLA object you can pass its constructor the
